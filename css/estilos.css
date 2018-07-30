@@ -1,0 +1,247 @@
+/* estilos generales*/
+*{
+	margin : 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: 'Open Sans', Verdana;
+
+}
+
+html, body{
+	overflow-x: hidden; 
+}
+
+body{
+	background: white;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+.container{
+	width: 85%;
+	margin: 0px auto;
+}
+
+/* cabecer */
+
+#main-header{
+background: white;
+height: 100px;
+line-height: 85px;	
+}
+
+#logo{
+	width: 63%;
+	float: left;
+}
+
+#logo h1{
+	font-weight: bold;
+	font-size: 25px;
+	color: #FB314E;
+}
+
+#menu{
+	width: 380px;
+	float: left;
+}
+
+#menu ul li{
+	list-style: none;
+	margin-left: 18px;
+	margin-right: 18px;
+	display: inline;
+}
+
+#menu ul li a{
+	color: black;
+}
+
+#menu ul li a:hover{
+	color: #FB314E;
+}
+
+/* estilos slider */
+
+#slider{
+	background: #FB314E;
+	color:white;
+	height: 300px;
+}
+
+#slider{
+	font-size: 35px;
+	text-align: center;
+	line-height: 290px;/*centra el texto*/
+	text-shadow: 0px 0px 6px black;
+}
+
+/*servicios*/
+.sub-header{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(251, 49, 78, 0.3);
+}
+
+.service, .video{
+	width: 33%;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.service img{
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.service h3{
+	margin-bottom: 20px;
+}
+
+.service p, .video p{
+	color: #444;
+	text-align: center;
+	display: block;
+	width: 85%;
+	margin:0px auto;
+	
+}
+
+/*videos*/
+ .video iframe{
+ 	margin-bottom: 20px;
+ 	width: 80%;
+ 	height: 170px;
+ }
+
+ /*footer*/
+
+ footer{
+ 	background: #333;
+ 	padding-top: 5px;
+ 	padding-bottom: 40px;
+ 	margin-top: 30px;
+ 	text-align: center;
+ 	color: white;
+ }
+
+ footer ul{
+ 	display: block;
+ 	width: 216px;
+ 	margin: 0px auto;
+ 	list-style: none;
+ 	margin-bottom: 20px;
+ 	margin-top: 29px;
+ }
+
+ footer li{
+ 	float: left;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+ 	transition: all 300ms;
+ }
+
+footer li:hover{
+	opacity: 0.8;
+	transform: scale(1.1,1.1);/*aumenta un poco el amaño*/
+}
+
+/*responsive menu y logo*/
+ @media (max-width: 1211px){
+	
+	.container{
+		width: 95%;
+	}
+ }
+
+ @media (max-width: 1082px){
+	
+	#main-header{
+		height: 70%;
+		line-height: 65px;
+	}
+	#logo{
+		width: 60%;	
+	}
+ }
+
+ @media (max-width: 999px){
+
+	#logo{
+		width: 368px;
+		float: none;
+		margin: 10px auto;
+	}
+
+	#menu{
+		float: none;
+		margin: 0px auto;
+	}
+
+	#slider h2{
+		font-size: 30px;
+	}
+ }
+
+ @media (max-width: 406px){
+	
+	#menu{
+		width: 100%;
+		text-align: center;
+	}
+
+	#menu ul li {
+	    margin-left: 2%;
+	    margin-right: 6%;
+	}
+
+	.service, .video{
+		width: 90%;
+	}
+
+	.video iframe{
+		width: 80%;
+		height: 150px;
+	}
+ }
+
+ /*respondive videos y servicico*/
+
+@media (max-width: 780px){
+	
+	.service, .video{
+		width: 70%;
+		margin: 0px auto;
+		float: none;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.service p, .video p{
+		margin-top: 10px;
+	}
+
+	.service img{
+		margin-bottom: 10px;
+	}
+
+	.video iframe{
+		width: 80%;
+		height: 230px;
+	}
+}
+
+.logo2{
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+ 

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curso PWA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link rel="shortcut icon" type="image/png" href="imagenes/favicon-144.png" />
+
+	<!-- color de la aplicacion PWA-->
+	<meta name="theme-color" content="#FB314E"/>
+
+	<!-- obtimizacion para movil PWA-->
+	<meta name="MobileOptimized" content="width"/>
+	<meta name="HandhelFriendly" content="true" />
+
+	<!--meta etiquetas para dispositivos apple PWA-->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucet"/>
+	<link rel="apple-touch-icon" href="imagenes/favicon-144.png" />
+	<link rel="apple-touch-startup" href="imagenes/favicon-144.png" />
+
+	<!-- Configuracion general de la PWA-->
+	<link rel="manifest" href="manifest.json" >
+
+	<!-- estilos-->
+	<link rel="stylesheet" href="css/estilos.css">
+	<!-- jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--se incluye el archivo main.js que hace el suavizado del scroll -->
+	<script src="main.js"></script>
+</head>
+<body>
+
+	<header id="main-header">
+		<div class="container">
+			<div id="logo">
+				<h1>Martin de Jesús Leon Cruz</h1>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li>
+						<a href="#main-header">Inicio</a>
+					</li>
+					<li>
+						<a href="#services">Servicio</a>
+					</li>
+					<li>
+						<a href="#videos">Videos</a>
+					</li>
+					<li>
+						<a href="#footer">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!--end container -->
+	</header>
+	<div class="clearfix"></div>
+
+	<main>
+		<div id="slider">
+			<div class="container">
+				<h2>Desarrolador web</h2>
+				</div>
+		</div>
+
+		<div id="services">
+		<div class="container">
+			<h2 class="sub-header">Servicios</h2>
+
+			<div class="service">
+				<img src="imagenes/1.png">
+				<h3>Desarrollo web</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloribus nam laudantium fugiat sequi, possimus, beatae similique eligendi nulla pariatur modi aliquam natus! A adipisci esse unde, aliquam optio nam.
+				</p>
+			</div>
+			
+			<div class="service">
+				<img src="imagenes/2.png">
+				<h3>Diseño web</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloribus nam laudantium fugiat sequi, possimus, beatae similique eligendi nulla pariatur modi aliquam natus! A adipisci esse unde, aliquam optio nam.</p>
+			</div>
+
+			<div class="service">
+				<img src="imagenes/3.png">
+				<h3>Mentoria</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloribus nam laudantium fugiat sequi, possimus, beatae similique eligendi nulla pariatur modi aliquam natus! A adipisci esse unde, aliquam optio nam.</p>
+			</div>
+		</div>
+		</div><!-- en services -->
+
+		<div class="clearfix"></div>
+
+		<div id="videos">
+			<div class="container">
+			<h2 class="sub-header">Videos</h2>
+
+				<div class="video">
+					<iframe width="80%" height="315" src="https://www.youtube.com/embed/Bk7hJk7mtOI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+					</iframe>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsam explicabo fuga, rem eveniet alias ducimus consectetur iusto molestias suscipit nihil corporis error unde perspiciatis optio dicta in, ab architecto?
+					</p>
+				</div>
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yDvgnJHmgjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsam explicabo fuga, rem eveniet alias ducimus consectetur iusto molestias suscipit nihil corporis error unde perspiciatis optio dicta in, ab architecto?
+					</p>
+				</div>
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/vDlVLaGSWEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsam explicabo fuga, rem eveniet alias ducimus consectetur iusto molestias suscipit nihil corporis error unde perspiciatis optio dicta in, ab architecto?
+					</p>
+				</div>
+
+			</div>
+		</div><!--end videos -->
+		<div class="clearfix"></div>
+	</main>
+
+	<footer id="footer">
+		<div class="container">
+			<h2 class="sub-header">Contacto</h2>
+			<p>Enviame un mensaje en culaquiera de estas redes sociales :)</p>
+			<ul>
+				<li><a href=""><img src="imagenes/twitter.png"></a></li>
+				<li><a href=""><img src="imagenes/facebook.png" alt=""></a></li>
+				<li><a href=""><img src="imagenes/instagram.png"></a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</footer>
+</body>
+</html>
